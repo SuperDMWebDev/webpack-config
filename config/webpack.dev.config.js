@@ -6,7 +6,7 @@ const config = {
   devServer: {
     // contentBase: path.join(__dirname, './'), // where dev server will look for static files, not compiled
     open: true,
-    port: 9000,
+    port: 8000,
     hot: true,
     historyApiFallback: true,
   },
