@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+.app {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  .active {
+    color: red;
+  }
+}
